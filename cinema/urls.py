@@ -12,4 +12,3 @@ router.register(r"genres", GenreViewSet)
 router.register(r"actors", ActorViewSet)
 router.register(r"movie_sessions", MovieSessionViewSet)
 urlpatterns = [] + router.urls
-

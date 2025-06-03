@@ -52,4 +52,3 @@ class MovieSessionViewSet(viewsets.ModelViewSet):
             .select_related("movie", "cinema_hall")
             .prefetch_related("movie__genres", "movie__actors")
         )
-
